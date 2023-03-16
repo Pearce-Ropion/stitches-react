@@ -205,6 +205,7 @@ export type CreateStitches = {
 			theme?: ConfigType.Theme<Theme>
 			themeMap?: ConfigType.ThemeMap<ThemeMap>
 			utils?: ConfigType.Utils<Utils>
+			sheet?: any;
 		}
 	): Stitches<Prefix, Media, Theme, ThemeMap, Utils>
 }

@@ -207,6 +207,7 @@ export default interface Stitches<
 	getCssText: {
 		(): string
 	}
+	sheet: any
   css: {
     withConfig: (config: {
       componentId?: string

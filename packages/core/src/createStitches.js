@@ -37,7 +37,7 @@ export const createStitches = (config) => {
 		}
 
 		/** Internal stylesheet. */
-		const sheet = createSheet(root)
+		const sheet = initConfig.sheet || createSheet(root)
 
 		const returnValue = {
 			css: createCssFunction(config, sheet),
